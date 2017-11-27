@@ -6,8 +6,8 @@ PRODUCT_RELEASE_NAME := P1m
 # Inherit some common CM stuff.
 $(call inherit-product, vendor/du/config/common_full_phone.mk)
 
-# Enhanced NFC
-$(call inherit-product, vendor/du/config/nfc_enhanced.mk)
+# Inherit from the common open source product configuration
+$(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/lenovo/P1m/device_P1m.mk)
