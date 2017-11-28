@@ -1,3 +1,4 @@
+app/EngineerMode/EngineerMode.apk
 app/YGPS/YGPS.apk
 xbin/mnld
 xbin/BGW
