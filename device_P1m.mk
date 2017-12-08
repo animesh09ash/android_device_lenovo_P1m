@@ -3,7 +3,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # These additionals go to /default.prop
-ADDITIONAL_DEFAULT_PROPERTIES += ro.secure=0 \
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += ro.secure=0 \
 ro.allow.mock.location=1 \
 ro.debuggable=1 \
 ro.adb.secure=0 \
