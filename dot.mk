@@ -3,7 +3,7 @@
 # Release name
 PRODUCT_RELEASE_NAME := P1m
 
-# Inherit some common Lineage stuff.
+# Inherit some common dotOS stuff.
 $(call inherit-product, vendor/dot/config/common_full_phone.mk)
  
 # Inherit device configuration
